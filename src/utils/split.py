@@ -1,3 +1,6 @@
-import numpy as np
-    
-def split_by_users(predictors, labels, users, user_index_)
+from sklearn.svm import SVC
+
+
+model = SVC(C = 1, kernel = 'linear')
+
+print(1)
